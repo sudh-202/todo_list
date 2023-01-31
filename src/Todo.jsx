@@ -3,7 +3,7 @@ import React from "react";
 const Todo = () => {
   const [activity, setActivity] = React.useState("");
   const [listData, setListData] = React.useState([]);
-  const [isEditing, setIsEditing] = React.useState(false);
+  // const [isEditing, setIsEditing] = React.useState(false);
   const addActivity = () => {
     setListData((listData) => {
       const updatedList = [...listData, activity];
